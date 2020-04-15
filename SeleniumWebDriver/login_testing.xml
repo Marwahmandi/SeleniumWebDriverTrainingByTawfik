@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="SeleniumWebDriver">
+    <parameter name="login" value="marwa"></parameter>
+    <parameter name="password" value="123"></parameter>
+    <classes>
+
+      <class name="testNG.BasicParameters"/>
+    </classes>
+  </test> <!-- SeleniumWebDriver -->
+</suite> <!-- Default Suite -->
